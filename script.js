@@ -7,8 +7,6 @@ input.addEventListener("keydown", function(e){
     // console.log(" some key was pressed down");
     console.log("event object", e);
     if(e.key == "Enter"){
-        // console.log("user want to enter a task");
-
         let task = input.value ;
         // create any html tag
         // console.log(task)
